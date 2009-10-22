@@ -341,7 +341,7 @@ module ActiveRecord
           # Refresh current branch in any case
           self.class.refresh_cache_of_branch_with(self.root)
           # Refresh all positions
-          self.class.refresh_positions
+#          self.class.refresh_positions
         end
         
         # Gather root.id before destruction
